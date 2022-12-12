@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- select sort -->
+    <select >
+        <option value="asscending">asscending</option>
+        <option value="descending">descending</option>
+    </select>
+
+    <!-- word sort -->
+    <input type="text">
+
+    <!-- pages count and info -->
+    <div class="pages">
+        <img src="http://cdn.onlinewebfonts.com/svg/img_418607.png" alt="" class="left">
+    </div>
+    <div class="main">
+
+    </div>
+    
+
+    <script src="maybeline.js"></script>
+</body>
+<style>
+    .card-text{
+        height: 170px;
+        overflow: hidden;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: 10px;
+    }
+    .pages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pages span{
+        margin: 5px;
+        font-size: 18px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .left, .right{
+        width: 20px;
+    }
+    .left{
+        rotate: 180deg !important;
+    }
+    .left:hover{
+        cursor: pointer;
+    }
+    .right:hover{
+        cursor: pointer;
+    }
+</style>
+</html>
